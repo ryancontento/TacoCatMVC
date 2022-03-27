@@ -1,0 +1,108 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+:root {
+    --primary-color: #e3a72f;
+    --secondary-color: #662d91;
+    --dark-color: #4e4e4e;
+    --light-color: #eee5cc;
+}
+
+body {
+    color: var(--light-color);
+    background: var(--secondary-color) !important;
+    font-family: "Belleza", sans-serif !important;
+}
+
+.navbar {
+    background-color: var(--light-color) !important;
+    color: var(--light-color) !important;
+}
+
+.navbar-brand {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+}
+
+#navbarSupportedContent {
+    color: var(--secondary-color) !important;
+}
+
+footer {
+    background-color: var(--light-color);
+    padding-right: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+.fa-ul {
+    color: var(--light-color) !important;
+}
+
+.btn,
+.btn-outline {
+    color: var(--light-color) !important;
+}
+
+p {
+    color: var(--light-color) !important;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social > a {
+    color: var(--secondary-color);
+    opacity: 0.75;
+}
+
+    footer .social > a:hover {
+        opacity: 0.9;
+        color: #b49714;
+    }
+
+.checklist > li i {
+    color: #b49714;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
